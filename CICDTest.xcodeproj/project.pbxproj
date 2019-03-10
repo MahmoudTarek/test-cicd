@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10B2DD722352B1F00A69EB4 /* appbox.plist in Resources */ = {isa = PBXBuildFile; fileRef = B10B2DD622352B1F00A69EB4 /* appbox.plist */; };
+		B10B2DDA22352C1600A69EB4 /* appbox.plist in Resources */ = {isa = PBXBuildFile; fileRef = B10B2DD922352C1600A69EB4 /* appbox.plist */; };
 		B1A0ADAE222FD37A000E1DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0ADAD222FD37A000E1DB3 /* AppDelegate.swift */; };
 		B1A0ADB0222FD37A000E1DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0ADAF222FD37A000E1DB3 /* ViewController.swift */; };
 		B1A0ADB3222FD37A000E1DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1A0ADB1222FD37A000E1DB3 /* Main.storyboard */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B10B2DD622352B1F00A69EB4 /* appbox.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = appbox.plist; sourceTree = "<group>"; };
+		B10B2DD922352C1600A69EB4 /* appbox.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appbox.plist; sourceTree = "<group>"; };
+		B10B2DDC22352FDE00A69EB4 /* Certificates_Egypt.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Certificates_Egypt.p12; sourceTree = "<group>"; };
+		B10B2DDD2235301000A69EB4 /* CICDTestAdHoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = CICDTestAdHoc.mobileprovision; sourceTree = "<group>"; };
 		B1A0ADAA222FD37A000E1DB3 /* CICDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A0ADAD222FD37A000E1DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1A0ADAF222FD37A000E1DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B10B2DD822352C0800A69EB4 /* cert */ = {
+			isa = PBXGroup;
+			children = (
+				B10B2DDC22352FDE00A69EB4 /* Certificates_Egypt.p12 */,
+				B10B2DDD2235301000A69EB4 /* CICDTestAdHoc.mobileprovision */,
+				B10B2DD922352C1600A69EB4 /* appbox.plist */,
+			);
+			path = cert;
+			sourceTree = "<group>";
+		};
 		B1A0ADA1222FD37A000E1DB3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +113,14 @@
 		B1A0ADAC222FD37A000E1DB3 /* CICDTest */ = {
 			isa = PBXGroup;
 			children = (
+				B10B2DD822352C0800A69EB4 /* cert */,
 				B1A0ADAD222FD37A000E1DB3 /* AppDelegate.swift */,
 				B1A0ADAF222FD37A000E1DB3 /* ViewController.swift */,
 				B1A0ADB1222FD37A000E1DB3 /* Main.storyboard */,
 				B1A0ADB4222FD37E000E1DB3 /* Assets.xcassets */,
 				B1A0ADB6222FD37E000E1DB3 /* LaunchScreen.storyboard */,
 				B1A0ADB9222FD37E000E1DB3 /* Info.plist */,
+				B10B2DD622352B1F00A69EB4 /* appbox.plist */,
 			);
 			path = CICDTest;
 			sourceTree = "<group>";
@@ -229,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10B2DDA22352C1600A69EB4 /* appbox.plist in Resources */,
+				B10B2DD722352B1F00A69EB4 /* appbox.plist in Resources */,
 				B1A0ADB8222FD37E000E1DB3 /* LaunchScreen.storyboard in Resources */,
 				B1A0ADB5222FD37E000E1DB3 /* Assets.xcassets in Resources */,
 				B1A0ADB3222FD37A000E1DB3 /* Main.storyboard in Resources */,
@@ -433,13 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BXL97SVLK9;
+				DEVELOPMENT_TEAM = 8FN6JYTJBN;
 				INFOPLIST_FILE = CICDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-Tarek.CICDTest";
+				PRODUCT_BUNDLE_IDENTIFIER = vf.CICDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,13 +471,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BXL97SVLK9;
+				DEVELOPMENT_TEAM = 8FN6JYTJBN;
 				INFOPLIST_FILE = CICDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-Tarek.CICDTest";
+				PRODUCT_BUNDLE_IDENTIFIER = vf.CICDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
