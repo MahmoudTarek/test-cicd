@@ -9,8 +9,15 @@
         <string></string>
     </dict>
     <dict>
-        <key>name</key>
-        <string>CICDTestAdHoc.mobileprovision</string>
+        <key>provisioningProfiles</key>
+        <dict>
+            <key>name</key>
+            <string>CICDTestAdHoc.mobileprovision</string>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>CICDTestDevelopment.mobileprovision</string>
+        </dict>
     </dict>
 </array>
 </plist>
