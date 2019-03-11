@@ -34,7 +34,7 @@ platform :ios do
 	)
 	puts("=====>>> END BUILD <<<=====")
 	puts("=====>>> START UNIT TESTING <<<=====")
-	run_tests(scheme: "CICDTestTests")
+	run_tests(scheme: "CICDTest")
 	puts("=====>>> END UNIT TESTING <<<=====")
 	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
 	crashlytics(
