@@ -26,5 +26,10 @@ platform :ios do
 		export_method: "ad-hoc"
 	)
 	puts("=====>>> END BUILD <<<=====")
+	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
+	crashlytics(
+    		api_token: "3a4e2329cb90bafda02283273c25decea7cd5e4f",
+    		build_secret: "05664ed00561c00aa21331dca241622f0499b7166fc80dfcf260fb3821805115")
+	puts("=====>>> END SEND BUILD TO CRASHLYTICS <<<=====")
   end
 end
