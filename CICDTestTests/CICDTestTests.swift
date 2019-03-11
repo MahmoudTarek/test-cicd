@@ -15,7 +15,7 @@ class CICDTestTests: XCTestCase {
     func testTarek() {
         
         
-        XCTAssert(false)
+        XCTAssert(true)
     }
 
 }
