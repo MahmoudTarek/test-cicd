@@ -33,8 +33,8 @@ platform :ios do
 	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
 	crashlytics(
     		api_token: "8f051c5ca7e8323d04c34a57f611e3f387ba01d4",
-    		build_secret: "b2904ce2382bfe2179e9cc0de0a81cbf352840a7b33bea7510c612b0f0a72d93"),
-		emails: "mahmoudtarek910@gmail.com"
+    		build_secret: "b2904ce2382bfe2179e9cc0de0a81cbf352840a7b33bea7510c612b0f0a72d93",
+		emails: "mahmoudtarek910@gmail.com")
 	puts("=====>>> END SEND BUILD TO CRASHLYTICS <<<=====")
   end
 end
