@@ -36,7 +36,7 @@ platform :ios do
 	crashlytics(
     		api_token: "8f051c5ca7e8323d04c34a57f611e3f387ba01d4",
     		build_secret: "b2904ce2382bfe2179e9cc0de0a81cbf352840a7b33bea7510c612b0f0a72d93",
-		emails: "mahmoudtarek910@gmail.com")
+		emails: "mahmoudtarek910@gmail.com", "marwa.aman@vodafone.com", "mahmoud.tarek-abdelzaher@vodafone.com")
 	puts("=====>>> END SEND BUILD TO CRASHLYTICS <<<=====")
   end
 end
