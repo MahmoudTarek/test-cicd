@@ -14,12 +14,12 @@ target 'CICDTest' do
   pod 'Crashlytics', '~> 3.12.0'
   
   target 'CICDTestTests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
   
   target 'CICDTestUITests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
   
