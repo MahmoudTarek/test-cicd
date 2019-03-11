@@ -21,10 +21,7 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
 
 	puts("=====>>> START INSTALL PODS <<<=====")
-	cocoapods(
-  		repo_update: true,
-		use_bundle_exec: false
-	)
+	cocoapods
 	puts("=====>>> END INSTALL PODS <<<=====")
 	puts("=====>>> START BUILD <<<=====")
 	build_app(
@@ -35,8 +32,9 @@ platform :ios do
 	puts("=====>>> END BUILD <<<=====")
 	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
 	crashlytics(
-    		api_token: "3a4e2329cb90bafda02283273c25decea7cd5e4f",
-    		build_secret: "05664ed00561c00aa21331dca241622f0499b7166fc80dfcf260fb3821805115")
+    		api_token: "8f051c5ca7e8323d04c34a57f611e3f387ba01d4",
+    		build_secret: "b2904ce2382bfe2179e9cc0de0a81cbf352840a7b33bea7510c612b0f0a72d93"),
+		emails: "mahmoudtarek910@gmail.com"
 	puts("=====>>> END SEND BUILD TO CRASHLYTICS <<<=====")
   end
 end

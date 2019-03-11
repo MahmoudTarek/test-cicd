@@ -393,7 +393,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)\n",
 			);
 			outputFileListPaths = (
 			);
@@ -401,7 +400,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3a4e2329cb90bafda02283273c25decea7cd5e4f 05664ed00561c00aa21331dca241622f0499b7166fc80dfcf260fb3821805115\n";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 8f051c5ca7e8323d04c34a57f611e3f387ba01d4 b2904ce2382bfe2179e9cc0de0a81cbf352840a7b33bea7510c612b0f0a72d93\n";
 		};
 		E9F9CD6D710D811236F7965A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -612,6 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 8FN6JYTJBN;
 				INFOPLIST_FILE = CICDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
