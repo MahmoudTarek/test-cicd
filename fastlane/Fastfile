@@ -25,6 +25,7 @@ platform :ios do
 		use_bundle_exec: false
 	)
 	puts("=====>>> END INSTALL PODS <<<=====")
+	increment_build_number
 	puts("=====>>> START BUILD <<<=====")
 	build_app(
 		scheme: "CICDTest",
