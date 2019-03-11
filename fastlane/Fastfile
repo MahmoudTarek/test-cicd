@@ -23,7 +23,8 @@ platform :ios do
 	puts("=====>>> START BUILD <<<=====")
 	build_app(
 		scheme: "CICDTest",
-		export_method: "ad-hoc"
+		export_method: "ad-hoc",
+		workspace: "CICDTest.xcworkspace"
 	)
 	puts("=====>>> END BUILD <<<=====")
 	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
