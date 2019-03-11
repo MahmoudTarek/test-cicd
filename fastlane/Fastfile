@@ -33,6 +33,9 @@ platform :ios do
 		workspace: "CICDTest.xcworkspace"
 	)
 	puts("=====>>> END BUILD <<<=====")
+	puts("=====>>> START UNIT TESTING <<<=====")
+	run_tests(scheme: "CICDTestTests")
+	puts("=====>>> END UNIT TESTING <<<=====")
 	puts("=====>>> START SEND BUILD TO CRASHLYTICS <<<=====")
 	crashlytics(
     		api_token: "8f051c5ca7e8323d04c34a57f611e3f387ba01d4",
